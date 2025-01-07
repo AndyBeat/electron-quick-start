@@ -1,20 +1,23 @@
 {
   "name": "electron-quick-start",
   "version": "1.0.0",
+  "private": true,
   "description": "A minimal Electron application",
+  "author": {
+    "name": "AndyBeat",
+    "email": "137811032@qq.com"
+  },
+  "repository": "https://github.com/AndyBeat/electron-quick-start.git",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
   },
-  "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
     "Electron",
     "quick",
     "start",
-    "tutorial",
     "demo"
   ],
-  "author": "GitHub",
   "license": "CC0-1.0",
   "devDependencies": {
     "electron": "^33.2.1"
